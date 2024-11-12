@@ -12,7 +12,7 @@ CREATE TABLE estudantes (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(180) UNIQUE NOT NULL
-);
+); 
 
 CREATE TABLE inscricoes (
     id_inscricao SERIAL PRIMARY KEY,

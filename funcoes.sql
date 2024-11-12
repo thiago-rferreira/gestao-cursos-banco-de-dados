@@ -11,7 +11,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-
+    
 
 SELECT * FROM consultar_inscricoes(1);
 
